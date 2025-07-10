@@ -1,0 +1,3 @@
+Initial content
+Change from base branch
+Change from conflict branch
