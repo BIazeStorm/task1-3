@@ -1,0 +1,107 @@
+/* === Загальні скидання === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #dfe9f3, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* === Основний контейнер === */
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* === Картка користувача === */
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* === Аватар === */
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+/* === Заголовки === */
+.card header h1 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 4px;
+}
+
+.card header h2 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+/* === Блок "Про себе" === */
+.about p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+/* === Email-контакт === */
+.contact .email {
+  display: inline-block;
+  background-color: #2d2d72;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.contact .email:hover {
+  background-color: #1c1c5a;
+  transform: scale(1.1);
+}
+
+/* === Соцмережі === */
+.socials {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.socials a img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.socials a:hover img {
+  transform: scale(1.2);
+}
+
+/* === Адаптивність === */
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
