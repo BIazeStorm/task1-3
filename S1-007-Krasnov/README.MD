@@ -1,0 +1,6 @@
+Використані FLEX-властивості:
+ Властивість	       Де застосовано	               Призначення
+display: flex	   body, .container, .socials	   Створює флекс-контейнер
+justify-content	   body, .container, .socials	   Вирівнює елементи по горизонталі
+align-items	       body	                           Вирівнює елементи по вертикалі
+gap	               .socials	                       Встановлює проміжки між елементами всередині
